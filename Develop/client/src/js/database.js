@@ -27,11 +27,12 @@ export const putDb = async (content) => {
 export const getDb = async () => {
   console.log('Post to jate');
   const jateDb = await openDB('jate', 1);
-  const tx = jateDb.transaction('jate', 'read');
+  const tx = jateDb.transaction('jate', 'readonly');
   const store = tx.objectStore('jate');
-  const request = store.add({ todo: content });
+  const request = store.getAll();
   const result = await request;
-  console.log('🚀 - data saved to the database', result);
+  console.log('result.value', result);
+  return result;
 }
 
 initdb();
