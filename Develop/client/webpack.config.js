@@ -28,6 +28,8 @@ module.exports = () => {
       }),
 
       new WebpackPwaManifest({
+        fingerprints: false,
+        inject: true,
         name: 'TextEditor',
         short_name: 'TE',
         description: 'Edit Some Text',
