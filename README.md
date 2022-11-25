@@ -31,6 +31,9 @@ The purpose of this project is to understand and fix a broken webpack oriented p
 https://wicked-cool-text-editor.herokuapp.com/
 This program uses react and webpacks, by visiting the heroku website you will be able to use the app
 
+![image](https://user-images.githubusercontent.com/106410591/204058153-7ca4e704-6acf-4155-8006-8c7211036ebb.png)
+The webpack is installable as well.
+
 ## License
 
 
