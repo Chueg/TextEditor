@@ -26,9 +26,10 @@ The purpose of this project is to understand and fix a broken webpack oriented p
 
 
 ## Usage
+![image](https://user-images.githubusercontent.com/106410591/204058086-45253e72-d4ab-4bab-ace1-c78dfe981bcd.png)
 
-
-This program uses react
+https://wicked-cool-text-editor.herokuapp.com/
+This program uses react and webpacks, by visiting the heroku website you will be able to use the app
 
 ## License
 
